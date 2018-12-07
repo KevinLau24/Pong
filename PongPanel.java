@@ -22,10 +22,11 @@ public class PongPanel extends JPanel{
 	public void paintComponent(Graphics g){
 		g.setColor(Color.BLACK);
 		g.fillRect(0, 0, 1280, 720);
-		g.setColor(Color.WHITE);
+		g.setColor(Color.RED);
 		g.fillRect(intRectX, intRectY, 50, 200);
+		g.setColor(Color.GREEN);
 		g.fillRect(intRectX1, intRectY1, 50, 200);
-		g.setColor(Color.BLUE);
+		g.setColor(Color.WHITE);
 		g.fillOval(intBallX, intBallY, 50, 50);
 		
 		
