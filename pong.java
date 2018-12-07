@@ -50,6 +50,7 @@ public class pong implements ActionListener, KeyListener, MouseListener{
 		
 	}
 	
+	// This is a overwritten method for MouseListener
 	public void mouseClicked(MouseEvent evt){
 		
 	}
